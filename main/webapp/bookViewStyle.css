@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+}
+section{
+	display:block;
+}
+.info-block{
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+    padding: 21px 25px 26px 24px;
+    overflow: hidden;
+    border-bottom: 1px solid #c6c6c9;
+    color: #1d1f29;
+    box-sizing: border-box;
+}
+.bookInfo{
+	margin: 0 0 0 195px;
+}
+.bookInfo .visual {
+    float: left;
+    width: 178px;
+    padding: 0 17px 0 0;
+    margin: 0 0 0 -195px;
+}
+.bookInfo .visual img{
+	display:block;
+	border-style: none;
+}
+.info-block .info {
+    padding: 3px 0 0;
+    float: right;
+    width: 100%;
+}
+.info h2, .info h1, .prices h1{
+    color: #1d1f29;
+    font: 600 1.667em/1.15em 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0 0 6px;
+}
+.info .mark {
+    color: #bbbcbd;
+    font: 600 1.167em/1.214em 'Open Sans', Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 0 39px;
+}
+.info .list-box {
+    border-top: 1px solid #c6c6c9;
+    border-bottom: 1px solid #c6c6c9;
+    overflow: hidden;
+    padding: 14px 0 20px 5px;
+    margin: 0 0 16px;
+}
+.info .list, .prices .list{
+    padding: 0 0 0 14.2%;
+    float:left;
+    list-style-type:none;
+}
+.info .list li {
+    margin: 0 0 -3px;
+}
+.info .list span {
+    font-weight: bold;
+}
+.info .text-box {
+    padding: 0 0 0 5px;
+}
+.prices table{
+	width:100%;
+	text-align:center;
+}
